@@ -1,0 +1,6 @@
+.expense-row-main { display: flex; align-items: center; gap: 12px; }
+.expense-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+.expense-title { font-size: 14px; font-weight: 600; }
+.expense-meta { font-size: 12px; margin-top: 2px; }
+.expense-row-right { display: flex; align-items: center; gap: 10px; }
+.expense-amount { font-family: var(--font-mono); font-weight: 600; font-size: 14px; }

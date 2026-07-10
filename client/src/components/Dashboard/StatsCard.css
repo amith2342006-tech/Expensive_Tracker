@@ -1,0 +1,16 @@
+.stats-card { position: relative; overflow: hidden; }
+.stats-card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+.stats-card-icon {
+  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: 9px;
+  background: var(--bg-panel-raised); color: var(--text-secondary); flex-shrink: 0;
+}
+.tone-income .stats-card-icon { background: var(--income-dim); color: var(--income); }
+.tone-expense .stats-card-icon { background: var(--expense-dim); color: var(--expense); }
+.tone-gold .stats-card-icon { background: var(--budget-gold-dim); color: var(--budget-gold); }
+.stats-card-label { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; font-weight: 600; }
+.stats-card-value { font-family: var(--font-display); font-size: 26px; font-weight: 700; }
+.stats-card-sub { font-size: 12px; margin-top: 6px; }
+.tone-income .stats-card-value { color: var(--income); }
+.tone-expense .stats-card-value { color: var(--expense); }
+.tone-gold .stats-card-value { color: var(--budget-gold); }
